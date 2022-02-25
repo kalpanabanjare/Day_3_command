@@ -1,0 +1,20 @@
+# to print 
+==> awk '{print}' file name--> to print all row and colom
+==> awk '{print$}' Data.csv --> to print all row and colom
+ 
+# to print only certain columns
+===> awk '{print$1 " " S4}' Data.csv
+
+# to print Employee Name & Base salary whose job tital is CAPTAIN
+===> cat Data.csv | grep CAPTAIN | awk '{print $2 " " $4}'
+
+# to print sum of Base pay
+===> awk '{ sum+=$4 }END{print sum}' Data.csv
+===>END is used to shows only last sum
+
+# to print row or colom 
+    NR==Row number
+    NF==Number of colums
+
+# To print employee with BasePay greater than 50,000
+===> awk '{if($4>50000){print$4}' Data.csv

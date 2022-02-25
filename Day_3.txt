@@ -1,0 +1,54 @@
+# make directory and folder
+==> mkdir folder name --> to create a folder
+==> mkdir -p folder_1 folder_2 --> to create nested folder
+
+#remove folder and directory
+==> rmdir folder name --> to delete folder
+==> rmdir -R folder name --> to delete folder with containt
+
+# make file
+==> touch file name --> to create file
+==> nano file name --> to create and edit file
+
+# delete file
+==> rm file name --> to delete file
+==> rm -r file name --> to delete file with containt 
+
+# change directory
+==> cd folder name --> change directorybto that folder
+==> cd . --> to current directory
+==> cd .. -->  to move to the parent directory of current directory
+
+# file and folder list
+==> ls --> to list the file and folder
+==> ls -a --> to list file and folder with hidder file and folder
+==> ls -l --> to show the list in a long list format wit permission
+==> ls -r --> reverse order
+
+# containt of file
+==> cat file name --> to show the containt of file
+
+# find folder and file
+==> find . --> to find in current folder with name, size ,type
+==> find *.txt --> to find txt file
+
+# disk uses
+==> du --> to find how much memory occupied by file and folder
+==> du -h --> human readable in GB/NB/KB
+
+# process status
+==> ps --> to check mainly running processes
+==> ps -elf --> to check all running process
+==> env --> to check the enviorment 
+
+# to find something in file
+==> grep search file name --> to find that word in file it is case sensative
+==> grep -i to ignore cases
+==> grep -v --> inverse/oposit
+==> grep -vi --> inverse with ignore cases
+==> grep -c --> to count
+==> grep -ci --> to count and ignore cases
+
+#store and print
+==> echo --> to store and print
+
